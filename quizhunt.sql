@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2020 at 09:42 AM
+-- Generation Time: Mar 10, 2020 at 09:25 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -64,7 +64,8 @@ CREATE TABLE `questions` (
 --
 
 INSERT INTO `questions` (`id`, `question`, `option_1`, `option_2`, `option_3`, `option_4`, `correct_option`, `created_at`, `updated_at`) VALUES
-(1, 'question 1 is here', 'option 1 is here', 'option 2 is here', 'option 3 is here', 'option 4 is here', 1, '2020-03-09 02:38:48', '2020-03-09 02:38:48');
+(1, 'question 1 is here', 'option 1 is here', 'option 2 is here', 'option 3 is here', 'option 4 is here', 1, '2020-03-09 02:38:48', '2020-03-09 02:38:48'),
+(5, 'asd', 'aa', 'ss', 'dd', 'dd', 3, '2020-03-09 23:48:40', '2020-03-09 23:48:40');
 
 --
 -- Indexes for dumped tables
@@ -96,7 +97,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `questions`
 --
 ALTER TABLE `questions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
